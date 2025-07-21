@@ -19,7 +19,7 @@ fade_out = 30                       # Fade-out time in ms
 max_concurrent_sounds = 4           # max no of overlapping key sounds
 volume_red_per_layer = 0.2          # Volume reduction for each overlapping sound
 
-soundpack = 'tealios-v2_Akira'                      # 'cherrymx-brown-abs' | 'cherrymx-black-abs' | 'tealios-v2_Akira' | 'apex-pro-tkl-v2_Akira'
+soundpack = 'cherrymx-black-abs'                      # 'cherrymx-brown-abs' | 'cherrymx-black-abs' | 'tealios-v2_Akira' | 'apex-pro-tkl-v2_Akira'
 volume = 2
 
 ###########################
@@ -30,8 +30,6 @@ with open(f'assets/{soundpack}/config.json', 'r') as f:
     config = json.load(f)
 defines = config['defines']
 type = config['key_define_type']
-
-
 
 
 
